@@ -43,6 +43,7 @@ nav .logo {
     top: -140px;
     left: 25%;
     width: 360px;
+    z-index: 2;
 }
 
 .nav-right {
@@ -98,6 +99,29 @@ nav .logo {
     color: #E6E6E6;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     height: 800px;
 }
+
+.hero .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    position: relative;
+    height: 30%;
+    width: 30%;
+    /* top: 40%; */
+}
+
+.hero .details p {
+    width: 80%;
+    color: #5D5E5F;
+    font-size: 18px;
+    line-height: 200%;
+    font-weight: 400;
+}
+
+/* .hero img{
+    position: absolute;
+} */
