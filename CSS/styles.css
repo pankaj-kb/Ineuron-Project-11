@@ -91,7 +91,7 @@ nav .logo {
     color: #E6E6E6;
     display: flex;
     justify-content: center;
-    height: 800px;
+    height: 750px;
 }
 
 .hero-image {
@@ -198,4 +198,20 @@ nav .logo {
 .add-to-bag:hover {
     background-color: #B52B2D;
 
+}
+
+/* logo-grid */
+
+.logo-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F10;
+    height: 80px;
+    gap: 10%;
+}
+
+.logo-grid img {
+    height: 30px;
+    cursor: pointer;
 }
