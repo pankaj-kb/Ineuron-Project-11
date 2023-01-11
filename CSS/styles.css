@@ -106,22 +106,86 @@ nav .logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     /* position: absolute; */
     position: relative;
     height: 30%;
     width: 30%;
-    /* top: 40%; */
+    top: 30%;
+    left: 15%;
+    gap: 30px;
+}
+
+.hero .details h1 {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.hero .details h1:hover {
+    color: #B52B2D;
+}
+
+.hero .details .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hero .details .description h4 {
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .hero .details p {
     width: 80%;
-    color: #5D5E5F;
+    color: #E6E6E6;
     font-size: 18px;
     line-height: 200%;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 /* .hero img{
     position: absolute;
 } */
+
+.on-ear {
+    position: absolute;
+    height: 100px;
+    top: 15%;
+    right: 25%;
+}
+
+.add-to-bag {
+    display: flex;
+    background-color: #202428;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    /* height: 100px; */
+    gap: 10px;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.add-to-bag img {
+    height: 30px;
+}
+
+.add-to-bag button {
+    background-color: transparent;
+    color:#E6E6E6;
+    font-size: 18px;
+}
+
+.add-to-bag h6 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.add-to-bag:hover {
+    background-color: #B52B2D;
+
+}
