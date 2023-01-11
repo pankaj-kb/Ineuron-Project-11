@@ -138,7 +138,7 @@ nav .logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .hero .details .description h4 {
@@ -147,7 +147,7 @@ nav .logo {
 }
 
 .hero .details p {
-    width: 80%;
+    width: 90%;
     color: #E6E6E6;
     font-size: 18px;
     line-height: 200%;
