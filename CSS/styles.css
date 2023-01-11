@@ -91,7 +91,7 @@ nav .logo {
     color: #E6E6E6;
     display: flex;
     justify-content: center;
-    height: 750px;
+    height: 700px;
 }
 
 .hero-image {
@@ -272,6 +272,14 @@ nav .logo {
 
 .specs-img {
     height: 400px;
+    animation: float 2s ease-in-out infinite;
+    transform-origin: top;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
 }
 
  .forward {
