@@ -363,3 +363,85 @@ nav .logo {
 .more-info button:hover {
     background-color: #B52B2D;
 }
+
+/* Buy Now Section */
+
+.buy-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #0F0F10;
+    color: #E6E6E6;
+}
+
+.buy-now-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202428;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.buy-now-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.buy-now-details h6 {
+    font-size: 30px;
+    font-weight: 500;
+    width: 70%;
+}
+
+.buy-now-details p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buy-now-button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #E6E6E6;
+    background-color: #0F0F10;
+    gap: 20px;
+    width: 200px;
+    height:50px;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.buy-now-button:hover {
+    background-color: #B52B2D;
+    cursor: pointer;
+}
+
+.buy-now-button img {
+    height: 20px;
+}
+
+.buy-now-button p {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.buy-now:hover .buy-now-img {
+    animation: drop 1s ease-in;
+}
+
+
+.buy-now-img {
+    height: 350px;
+}
+
+@keyframes drop {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
+}
