@@ -230,7 +230,7 @@ nav .logo {
 }
 
 .specs .specs-logo {
-    height: 100px;
+    height: 80px;
 }
 
 .spec-cols {
@@ -302,29 +302,64 @@ nav .logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 100px;   
+    gap: 80px;   
 }
 
+.case .case-logo {
+    height: 80px;
+}
 .case-row {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10%;
+}
+
+.case-row .case-img {
+    height:500px;
+    box-shadow: 5px 5px 5px 0px #B52B2D;
+    padding: 20px;
 }
 
 .case-details {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    width: 30%;
+    gap: 50px;
 }
 
 .case-details p {
-    width: 30%;
+    width: 60%;
+    color: #E6E6E6;
+    font-size: 20px;
+    line-height: 200%;
+    font-weight: 300;
 }
 
 .more-info {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #E6E6E6;
     background-color: #202428;
+    padding: 20px 40px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.more-info:hover {
+    background-color: #B52B2D;
+    cursor: pointer;
+}
+
+.more-info button {
+    color: #E6E6E6;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.more-info button:hover {
+    background-color: #B52B2D;
 }
