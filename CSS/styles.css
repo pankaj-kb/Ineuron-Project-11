@@ -101,11 +101,23 @@ nav .logo {
     width: 360px;
     z-index: 2;
     /* transition: all ease-in-out 0.3s; */
-    animation: float 2s ease-in-out infinite;
+}
+
+.hero:hover .hero-image {
+    animation: arrive 2s ease-in-out;
     transform-origin: top;
 }
 
-@keyframes float {
+@keyframes arrive {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* @keyframes float {
     0% {
         transform: translateY(0);
     }
@@ -117,7 +129,7 @@ nav .logo {
     100% {
         transform: translateY(0);
     }
-}
+} */
 
 .hero .details {
     display: flex;
@@ -578,3 +590,4 @@ nav .logo {
     cursor: pointer;
 }
 
+/* Footer Section */
