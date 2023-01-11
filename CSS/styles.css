@@ -106,9 +106,17 @@ nav .logo {
 }
 
 @keyframes float {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .hero .details {
@@ -277,12 +285,20 @@ nav .logo {
 }
 
 @keyframes float {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
- .forward {
+.forward {
     position: relative;
     left: 100px;
 }
@@ -302,12 +318,13 @@ nav .logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 80px;   
+    gap: 80px;
 }
 
 .case .case-logo {
     height: 80px;
 }
+
 .case-row {
     display: flex;
     justify-content: center;
@@ -316,7 +333,7 @@ nav .logo {
 }
 
 .case-row .case-img {
-    height:500px;
+    height: 500px;
     box-shadow: 5px 5px 5px 0px #B52B2D;
     padding: 20px;
 }
@@ -406,14 +423,14 @@ nav .logo {
 }
 
 .buy-now-button {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     color: #E6E6E6;
     background-color: #0F0F10;
     gap: 20px;
     width: 200px;
-    height:50px;
+    height: 50px;
     border-radius: 10px;
     padding: 30px 20px;
 }
@@ -442,6 +459,47 @@ nav .logo {
 }
 
 @keyframes drop {
-    0% { transform: translateY(-100%); }
-    100% { transform: translateY(0); }
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Style Section */
+
+.style-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F10;
+    height: 850px;
+}
+
+.style-logo {
+    height: 150px;
+}
+
+.style-gallary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.style-gallary-top {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.style-gallary-bottom {
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
