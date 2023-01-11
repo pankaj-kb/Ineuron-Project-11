@@ -215,3 +215,71 @@ nav .logo {
     height: 30px;
     cursor: pointer;
 }
+
+/* Specs */
+
+.specs {
+    background-color: #0F0F10;
+    color: #E6E6E6;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.specs .specs-logo {
+    height: 100px;
+}
+
+.spec-cols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+}
+
+.specs-left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 200%;
+}
+
+.specs-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.specs-detail img {
+    height: 30px;
+}
+
+.specs-detail h6 {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.specs-detail p {
+    font-size: 12px;
+    width: 150px
+}
+
+.specs-img {
+    height: 400px;
+}
+
+ .forward {
+    position: relative;
+    left: 100px;
+}
+
+.center {
+    position: relative;
+    left: 50px;
+}
