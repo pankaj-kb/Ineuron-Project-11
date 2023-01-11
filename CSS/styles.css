@@ -291,3 +291,40 @@ nav .logo {
     position: relative;
     left: 50px;
 }
+
+/* Case Section */
+
+.case {
+    background-color: #0F0F10;
+    color: #E6E6E6;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;   
+}
+
+.case-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-details p {
+    width: 30%;
+}
+
+.more-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202428;
+}
