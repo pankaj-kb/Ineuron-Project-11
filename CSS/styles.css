@@ -103,7 +103,7 @@ nav .logo {
     /* transition: all ease-in-out 0.3s; */
 }
 
-.hero:hover .hero-image {
+.hero-image {
     animation: arrive 2s ease-in-out;
     transform-origin: top;
 }
@@ -549,6 +549,7 @@ nav .logo {
 
 .gallary-item:hover {
     background-color: #B52B2D;
+    cursor: pointer;
     /* background-color: #0F0F10; */
 }
 
@@ -590,4 +591,13 @@ nav .logo {
     cursor: pointer;
 }
 
-/* Footer Section */
+/* Extra-Links Section */
+
+.extra-links {
+    background-color: #0F0F10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E6E6E6;
+    height: 600px;
+}
